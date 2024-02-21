@@ -50,6 +50,7 @@ cd project
 bash
 python main.py
 The script executes the entire pipeline, including XML processing, image manipulation, and histogram comparisons.
+
 Project Structure:
 data/: Contains XML files and input images.
  src/: Holds the source code files.
@@ -60,6 +61,7 @@ data/: Contains XML files and input images.
   pca_reduction.py: Applies Principal Component Analysis (PCA).
    main.py: The main script integrating all modules for the complete image processing pipeline.
 results/: Stores output images and plots generated during processing.
+
 Acknowledgments:
  The project relies on the scikit-image library for image processing tasks.
  Various image processing techniques are applied based on scikit-image documentation and examples.
